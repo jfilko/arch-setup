@@ -1,10 +1,10 @@
 #!/bin/sh
 
-# Configure ufw
-sudo systemctl start ufw
-sudo ufw default deny
-sudo ufw enable
-
 # Install apps
 APPS=$(cat apps.txt | tr '\n' ' ')
 yay -S $APPS
+
+# Configure Virtual Box
+sudo systemctl enable vboxservice
+sudo usermod -aG vboxusers jakub
+sudo usermod -aG vboxsf jakub
