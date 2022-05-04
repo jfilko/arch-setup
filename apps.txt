@@ -7,6 +7,8 @@ code
 discord
 easyeffects
 firefox
+github-cli
+github-desktop-bin
 gnome-tweaks
 google-chrome
 insomnia-bin
