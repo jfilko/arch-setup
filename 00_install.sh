@@ -28,6 +28,7 @@ yay --nocleanmenu --nodiffmenu --noeditmenu --noupgrademenu --noremovemake --sav
 yay -S xorg xorg-server
 APPS_SYSTEM=$(cat apps-system.txt | tr '\n' ' ')
 yay -S $APPS_SYSTEM
+yay -R gnome-boxes
 
 # Configure Java
 sudo archlinux-java set zulu-17
