@@ -10,10 +10,6 @@ sudo bash -c "echo \"127.0.0.1       localhost\" >> /etc/hosts"
 sudo bash -c "echo \"::1             localhost\" >> /etc/hosts"
 sudo bash -c "echo \"127.0.1.1       $CUSTOM_HOSTNAME.localdomain $CUSTOM_HOSTNAME\" >> /etc/hosts"
 
-#Configure Pacman
-sudo bash -c '"[multilib]" >> /etc/pacman.conf'
-sudo bash -c '"Include = /etc/pacman.d/mirrorlist" >> /etc/pacman.conf'
-
 # Configure reflector
 sudo pacman -Sy reflector
 sudo mkdir -p /etc/xdg/reflector && sudo cp reflector/reflector.conf /etc/xdg/reflector/reflector.conf
@@ -51,11 +47,11 @@ sudo ufw enable
 bash ./01_apps.sh
 
 # Configure shell
-git clone git@github.com:Jakubaakk/dotfiles.git
+git clone https://github.com/jakubaakk/dotfiles.git
 cp dotfiles/* ~/.
-cp dotfile/.* ~/.
+cp dotfiles/.* ~/.
 chsh -s /bin/zsh jakub
 
 # Copy easyeffects
 mkdir -p ~/.config
-cp easyeffects ~/.config/easyeffects
+cp -r easyeffects ~/.config/easyeffects
