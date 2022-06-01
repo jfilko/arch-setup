@@ -8,7 +8,6 @@ discord
 easyeffects
 firefox
 github-cli
-github-desktop-bin
 gnome-tweaks
 google-chrome
 insomnia-bin
@@ -16,7 +15,6 @@ intellij-idea-ultimate-edition
 intellij-idea-ultimate-edition-jre
 libreoffice-still
 linux-headers
-lutris
 obs-studio
 papirus-icon-theme
 piper

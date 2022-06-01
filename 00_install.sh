@@ -21,7 +21,7 @@ git clone https://aur.archlinux.org/yay-bin.git && cd yay-bin && makepkg -si && 
 yay --nocleanmenu --nodiffmenu --noeditmenu --noupgrademenu --noremovemake --save
 
 # Install system apps
-yay -S xorg xorg-server
+yay -S xorg
 APPS_SYSTEM=$(cat apps-system.txt | tr '\n' ' ')
 yay -S $APPS_SYSTEM
 yay -R gnome-boxes

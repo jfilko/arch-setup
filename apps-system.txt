@@ -29,6 +29,7 @@ pipewire-pulse
 ufw
 vulkan-radeon
 wireplumber
+xf86-video-amdgpu
 zsh
 zulu-11-bin
 zulu-17-bin
