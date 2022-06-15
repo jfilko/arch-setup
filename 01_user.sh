@@ -31,3 +31,5 @@ ssh-keygen
 # Git config
 git config --global user.name 'Jakub Filko'
 git config --global user.email 'jakubaakk@jakubfilko.cz'
+git remote remove origin
+git remote add origin git@github.com:Jakubaakk/arch-setup.git
