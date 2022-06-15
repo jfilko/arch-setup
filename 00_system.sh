@@ -42,16 +42,3 @@ sudo systemctl enable docker
 sudo systemctl start ufw
 sudo ufw default deny
 sudo ufw enable
-
-# Install user apps
-bash ./01_apps.sh
-
-# Configure shell
-git clone https://github.com/jakubaakk/dotfiles.git
-cp dotfiles/* ~/.
-cp dotfiles/.* ~/.
-chsh -s /bin/zsh jakub
-
-# Copy easyeffects
-mkdir -p ~/.config
-cp -r easyeffects ~/.config/easyeffects
