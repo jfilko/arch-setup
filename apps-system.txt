@@ -1,9 +1,6 @@
-android-tools
 curl
 docker
 dosfstools
-gdm
-gnome
 httpie
 lib32-libva-mesa-driver
 lib32-mesa
@@ -26,6 +23,8 @@ pipewire
 pipewire-alsa
 pipewire-jack
 pipewire-pulse
+plasma
+ssdm
 ufw
 vulkan-radeon
 wireplumber

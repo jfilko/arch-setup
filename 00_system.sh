@@ -21,10 +21,9 @@ git clone https://aur.archlinux.org/yay-bin.git && cd yay-bin && makepkg -si && 
 yay --nocleanmenu --nodiffmenu --noeditmenu --noupgrademenu --noremovemake --save
 
 # Install system apps
-yay -S xorg
+yay -S xorg xorg-server
 APPS_SYSTEM=$(cat apps-system.txt | tr '\n' ' ')
 yay -S $APPS_SYSTEM
-yay -R gnome-boxes
 
 # Configure Java
 sudo archlinux-java set zulu-17
@@ -34,7 +33,8 @@ sudo usermod -aG docker $USER
 
 # Enable services
 sudo systemctl enable NetworkManager
-sudo systemctl enable gdm
+sudo systemctl enable sddm
+sudo systemctl enable haveged
 sudo systemctl enable ufw
 sudo systemctl enable docker
 
