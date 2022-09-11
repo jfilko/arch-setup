@@ -31,7 +31,6 @@ slack-desktop
 spectacle
 steam
 steam-native-runtime
-strongbox
 tidal-hifi-bin
 virtualbox
 virtualbox-guest-iso
@@ -39,3 +38,4 @@ virtualbox-guest-utils
 virtualbox-host-modules-arch
 vlc
 yakuake
+wowup

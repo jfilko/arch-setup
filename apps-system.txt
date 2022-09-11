@@ -1,6 +1,7 @@
 curl
 docker
 dosfstools
+efibootmgr
 gperftools
 httpie
 lib32-gperftools
