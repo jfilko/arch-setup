@@ -25,9 +25,6 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 nvm i --lts
 
-# Generate SSH keys
-ssh-keygen
-
 # Git config
 git config --global user.name 'Jakub Filko'
 git config --global user.email 'jakubaakk@jakubfilko.cz'
