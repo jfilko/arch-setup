@@ -20,6 +20,7 @@ kcalc
 ktorrent
 libreoffice-still
 linux-headers
+lutris
 obs-studio
 papirus-icon-theme
 piper
