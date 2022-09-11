@@ -1,7 +1,9 @@
 curl
 docker
 dosfstools
+gperftools
 httpie
+lib32-gperftools
 lib32-libva-mesa-driver
 lib32-mesa
 lib32-mesa-vdpau
@@ -25,7 +27,7 @@ pipewire-alsa
 pipewire-jack
 pipewire-pulse
 plasma
-ssdm
+sddm
 ufw
 vulkan-icd-loader
 vulkan-radeon

@@ -7,6 +7,7 @@ discord
 dolphin
 easyeffects
 firefox
+gamemode
 gimp
 github-cli
 google-chrome
@@ -21,11 +22,16 @@ ktorrent
 libreoffice-still
 linux-headers
 lutris
+mangohud
 obs-studio
 papirus-icon-theme
 piper
+polymc
 slack-desktop
 spectacle
+steam
+steam-native-runtime
+strongbox
 tidal-hifi-bin
 virtualbox
 virtualbox-guest-iso
