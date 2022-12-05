@@ -1,8 +1,8 @@
 curl
 docker
+docker-compose
 dosfstools
 efibootmgr
-gnome
 haveged
 httpie
 lib32-libva-mesa-driver
@@ -27,6 +27,8 @@ pipewire
 pipewire-alsa
 pipewire-jack
 pipewire-pulse
+plasma
+sddm
 ufw
 vulkan-icd-loader
 vulkan-radeon

@@ -33,7 +33,7 @@ sudo usermod -aG docker $USER
 
 # Enable services
 sudo systemctl enable NetworkManager
-sudo systemctl enable gdm
+sudo systemctl enable sddm
 sudo systemctl enable haveged
 sudo systemctl enable ufw
 sudo systemctl enable docker
