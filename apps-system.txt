@@ -15,7 +15,6 @@ lib32-vulkan-radeon
 libva-mesa-driver
 mesa
 mesa-vdpau
-nerd-fonts-fira-code
 networkmanager
 noto-fonts
 noto-fonts-cjk
@@ -23,6 +22,8 @@ noto-fonts-emoji
 noto-fonts-extra
 ntfs-3g
 openssh
+otf-nerd-fonts-fira-mono
+otf-nerd-fonts-fira-code
 pipewire
 pipewire-alsa
 pipewire-jack
@@ -32,9 +33,10 @@ sddm
 ufw
 vulkan-icd-loader
 vulkan-radeon
+wine
 wireplumber
 xf86-video-amdgpu
 zsh
+zulu-8-bin
 zulu-11-bin
 zulu-17-bin
-zulu-8-bin
