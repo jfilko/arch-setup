@@ -1,0 +1,10 @@
+dosfstools
+noto-fonts
+noto-fonts-cjk
+noto-fonts-emoji
+noto-fonts-extra
+ntfs-3g
+otf-nerd-fonts-fira-mono
+otf-nerd-fonts-fira-code
+ufw
+wine

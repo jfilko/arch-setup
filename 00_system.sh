@@ -22,19 +22,32 @@ yay --nocleanmenu --nodiffmenu --noeditmenu --noupgrademenu --noremovemake --sav
 
 # Install system apps
 yay -S xorg xorg-server
+
 APPS_SYSTEM=$(cat apps-system.txt | tr '\n' ' ')
 yay -S $APPS_SYSTEM
 
+APPS_NVIDIA=$(cat apps-nvidia.txt | tr '\n' ' ')
+yay -S $APPS_NVIDIA
+
+APPS_ASUS_LAPTOP=$(cat apps-asus-laptop.txt | tr '\n' ' ')
+yay -S $APPS_ASUS_LAPTOP
+
+APPS_DEV=$(cat apps-dev.txt | tr '\n' ' ')
+yay -S $APPS_DEV
+
+APPS_GENERIC=$(cat apps-generic.txt | tr '\n' ' ')
+yay -S $APPS_GENERIC
+
+
 # Configure Java
-sudo archlinux-java set zulu-17
+sudo archlinux-java set zulu-11
 
 # Configure user groups
 sudo usermod -aG docker $USER
 
 # Enable services
 sudo systemctl enable NetworkManager
-sudo systemctl enable sddm
-sudo systemctl enable haveged
+sudo systemctl enable gdm
 sudo systemctl enable ufw
 sudo systemctl enable docker
 

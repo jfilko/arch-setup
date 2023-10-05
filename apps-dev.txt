@@ -1,0 +1,11 @@
+aws-cli-v2
+curl
+docker
+docker-compose
+httpie
+openssh
+zsh
+zulu-8-bin
+zulu-11-bin
+zulu-17-bin
+zulu-21-bin

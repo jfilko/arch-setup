@@ -1,0 +1,6 @@
+tlp
+bluez
+bluez-utils
+asusctl
+supergfxctl
+rog-control-center
