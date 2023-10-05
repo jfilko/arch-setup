@@ -2,3 +2,4 @@ efibootmgr
 gdm
 gnome
 networkmanager
+sudo
