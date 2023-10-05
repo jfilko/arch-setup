@@ -1,7 +1,6 @@
 audacity
 bitwarden
 bibata-cursor-theme-bin
-chromium
 discord
 firefox
 gimp
@@ -18,6 +17,8 @@ protonup-qt
 slack-desktop
 steam
 steam-native-runtime
+transmission
+ungoogled-chromium
 vlc
 vscodium-bin
 yakuake
