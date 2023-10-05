@@ -1,6 +1,7 @@
 audacity
 bitwarden
 bibata-cursor-theme-bin
+cider
 discord
 firefox
 gimp
