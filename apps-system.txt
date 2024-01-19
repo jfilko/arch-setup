@@ -3,3 +3,5 @@ gdm
 gnome
 networkmanager
 sudo
+bluez
+bluez-utils

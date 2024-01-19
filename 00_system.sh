@@ -23,7 +23,7 @@ sudo systemctl start reflector
 # Install Yay
 echo "Installing yay" >> "$LOG_FILE"
 git clone https://aur.archlinux.org/yay-bin.git && cd yay-bin && makepkg -si && cd .. && rm -rf yay-bin
-yay --nocleanmenu --nodiffmenu --noeditmenu --noupgrademenu --noremovemake --save
+yay --nocleanmenu --nodiffmenu --noeditmenu --noremovemake --save
 
 # Install system apps
 echo "Installing xorg" >> "$LOG_FILE"
@@ -33,13 +33,13 @@ echo "Installing system apps" >> "$LOG_FILE"
 APPS_SYSTEM=$(cat apps-system.txt | tr '\n' ' ')
 yay -S $APPS_SYSTEM
 
-echo "Installing Nvidia apps" >> "$LOG_FILE"
-APPS_NVIDIA=$(cat apps-nvidia.txt | tr '\n' ' ')
-yay -S $APPS_NVIDIA
+echo "Installing GPU apps" >> "$LOG_FILE"
+APPS_GPU=$(cat apps-gpu.txt | tr '\n' ' ')
+yay -S $APPS_GPU
 
-echo "Installing ASUS laptop apps" >> "$LOG_FILE"
-APPS_ASUS_LAPTOP=$(cat apps-asus-laptop.txt | tr '\n' ' ')
-yay -S $APPS_ASUS_LAPTOP
+echo "Installing Gaming dependencies" >> "$LOG_FILE"
+APPS_GAMING=$(cat apps-gaming.txt | tr '\n' ' ')
+yay -S $APPS_GAMING
 
 echo "Installing dev apps" >> "$LOG_FILE"
 APPS_DEV=$(cat apps-dev.txt | tr '\n' ' ')

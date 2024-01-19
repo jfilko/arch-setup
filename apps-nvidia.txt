@@ -1,4 +1,0 @@
-nvidia
-lib32-nvidia-utils
-nvidia-prime
-nvidia-prime-rtd3pm

@@ -1,12 +1,12 @@
 audacity
-bitwarden
 bibata-cursor-theme-bin
-cider
 discord
+easyeffects
 firefox
 gimp
+google-chrome
 insomnia-bin
-intellij-idea-ultimate-edition
+jetbrains-toolbox
 libreoffice-still
 lutris
 obs-studio
@@ -17,9 +17,6 @@ prismlauncher-bin
 protonup-qt
 slack-desktop
 steam
-steam-native-runtime
 transmission
-ungoogled-chromium
 vlc
 vscodium-bin
-yakuake

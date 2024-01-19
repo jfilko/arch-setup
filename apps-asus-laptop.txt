@@ -1,6 +1,5 @@
-tlp
-bluez
-bluez-utils
 asusctl
 supergfxctl
 rog-control-center
+linux-g14
+linux-g14-headers
