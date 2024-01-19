@@ -1,5 +1,7 @@
 #!/bin/sh
 
+LOG_FILE="log.txt"
+
 # Install apps
 echo "Installing user apps" >> "$LOG_FILE"
 APPS=$(cat apps.txt | tr '\n' ' ')
