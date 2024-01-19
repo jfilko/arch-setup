@@ -1,5 +1,6 @@
 audacity
 bibata-cursor-theme-bin
+calf
 discord
 easyeffects
 firefox
@@ -9,6 +10,8 @@ insomnia-bin
 jetbrains-toolbox
 libreoffice-still
 lutris
+lsp-plugins-lv2
+mda.lv2
 obs-studio
 papirus-icon-theme
 perimeter81
@@ -20,3 +23,5 @@ steam
 transmission
 vlc
 vscodium-bin
+yelp
+zam-plugins-lv2
