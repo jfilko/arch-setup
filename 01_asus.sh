@@ -22,6 +22,6 @@ echo "Installing asus apps" >> "$LOG_FILE"
 APPS_ASUS_LAPTOP=$(cat apps-asus-laptop.txt | tr '\n' ' ')
 yay -S $APPS_ASUS_LAPTOP
 
-sudo systemctl enable --now power-profiles-daemon.service
-sudo systemctl enable --now supergfxd
+sudo systemctl enable power-profiles-daemon.service
+sudo systemctl enable  supergfxd
 

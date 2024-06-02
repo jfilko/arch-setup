@@ -18,7 +18,6 @@ echo "Configuring reflector" >> "$LOG_FILE"
 sudo pacman -Sy reflector
 sudo mkdir -p /etc/xdg/reflector && sudo cp reflector/reflector.conf /etc/xdg/reflector/reflector.conf
 sudo mkdir -p /etc/pacman.d/hooks && sudo cp reflector/mirrorupgrade.hook /etc/pacman.d/hooks/mirrorupgrade.hook
-sudo systemctl start reflector
 
 # Install Yay
 echo "Installing yay" >> "$LOG_FILE"
