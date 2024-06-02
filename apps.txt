@@ -13,6 +13,7 @@ perimeter81
 piavpn-bin
 postman-bin
 protonup-qt
+signal-desktop
 slack-desktop
 spectacle
 steam
