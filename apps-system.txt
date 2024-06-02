@@ -1,6 +1,6 @@
 efibootmgr
-gdm
-gnome
+sddm
+plasma
 networkmanager
 sudo
 bluez

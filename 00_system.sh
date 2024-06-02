@@ -49,7 +49,6 @@ echo "Installing generic apps" >> "$LOG_FILE"
 APPS_GENERIC=$(cat apps-generic.txt | tr '\n' ' ')
 yay -S $APPS_GENERIC
 
-
 # Configure Java
 echo "Configuring Java" >> "$LOG_FILE"
 sudo archlinux-java set zulu-11
@@ -61,12 +60,11 @@ sudo usermod -aG docker $USER
 # Enable services
 echo "Enabling services" >> "$LOG_FILE"
 sudo systemctl enable NetworkManager
-sudo systemctl enable gdm
+sudo systemctl enable sddm
 sudo systemctl enable ufw
 sudo systemctl enable docker
 
 # Configure ufw
 echo "Configuring ufw" >> "$LOG_FILE"
-sudo systemctl start ufw
 sudo ufw default deny
 sudo ufw enable

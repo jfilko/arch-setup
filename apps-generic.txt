@@ -8,4 +8,4 @@ otf-firamono-nerd
 ttf-firacode-nerd
 ufw
 wget
-wine-staging
+wireguard-tools
