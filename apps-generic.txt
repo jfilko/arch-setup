@@ -7,5 +7,5 @@ ntfs-3g
 otf-firamono-nerd
 ttf-firacode-nerd
 ufw
-wget
 wireguard-tools
+wine-staging

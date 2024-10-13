@@ -9,7 +9,7 @@ yay -S $APPS
 
 # Configure shell
 echo "Configuring shell" >> "$LOG_FILE"
-git clone https://github.com/jakubaakk/dotfiles.git
+git clone https://github.com/jfilko/dotfiles.git
 cp dotfiles/* ~/.
 cp dotfiles/.* ~/.
 chsh -s /bin/zsh $USER
@@ -20,8 +20,3 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 nvm i --lts
-
-# Git config
-echo "Configuring git config" >> "$LOG_FILE"
-git config --global user.name 'Jakub Filko'
-git config --global user.email 'jakubaakk@jakubfilko.cz'

@@ -1,12 +1,10 @@
-aws-cli-v2
 curl
 docker
-docker-compose
-git
 httpie
 nano
 openssh
 vim
+wget
 zsh
 zulu-8-bin
 zulu-11-bin

@@ -22,7 +22,7 @@ sudo mkdir -p /etc/pacman.d/hooks && sudo cp reflector/mirrorupgrade.hook /etc/p
 # Install Yay
 echo "Installing yay" >> "$LOG_FILE"
 git clone https://aur.archlinux.org/yay-bin.git && cd yay-bin && makepkg -si && cd .. && rm -rf yay-bin
-yay --nocleanmenu --nodiffmenu --noeditmenu --noremovemake --save
+yay --cleanmenu=false --diffmenu=false --editmenu=false --noremovemake --save
 
 # Install system apps
 echo "Installing xorg" >> "$LOG_FILE"
@@ -35,10 +35,6 @@ yay -S $APPS_SYSTEM
 echo "Installing GPU apps" >> "$LOG_FILE"
 APPS_GPU=$(cat apps-gpu.txt | tr '\n' ' ')
 yay -S $APPS_GPU
-
-echo "Installing Gaming dependencies" >> "$LOG_FILE"
-APPS_GAMING=$(cat apps-gaming.txt | tr '\n' ' ')
-yay -S $APPS_GAMING
 
 echo "Installing dev apps" >> "$LOG_FILE"
 APPS_DEV=$(cat apps-dev.txt | tr '\n' ' ')
@@ -62,6 +58,7 @@ sudo systemctl enable NetworkManager
 sudo systemctl enable sddm
 sudo systemctl enable ufw
 sudo systemctl enable docker
+sudo systemctl enable lactd
 
 # Configure ufw
 echo "Configuring ufw" >> "$LOG_FILE"
