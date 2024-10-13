@@ -1,6 +1,7 @@
 ark
 brave-bin
 bruno
+code
 dolphin
 discord
 firefox
@@ -15,5 +16,4 @@ signal-desktop
 spectacle
 steam
 vlc
-vscodium-bin
 yakuake
